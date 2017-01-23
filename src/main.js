@@ -3,9 +3,9 @@
 
 // import {sync} from 'vuex-router-sync'
 import Vue from 'vue'
-import App from '.\\App'
+import App from './App'
 //import store from './store/store'
-import router from '.\\router'
+import router from './router'
 
 // import ElementUI from '..\\..\\element\\element\\lib'
 //import ElementUI from 'element-ui'
