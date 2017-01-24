@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import Hello from '.\\components\\Hello'
+import Hello from './components/Hello'
 import {mapState} from 'vuex'
 
 export default {
