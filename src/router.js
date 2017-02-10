@@ -32,7 +32,7 @@ const router = new VueRouter({
     routes: [
         {path: '/', name: 'foo', component: Bar},     
         {path: '/Foo', name: 'bar', component: Foo},
-        {path: '/bah', component: Dummy}
+        {path: '/dummy', component: Dummy}
     ]
 })
 
