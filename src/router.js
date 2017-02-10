@@ -12,7 +12,8 @@ const Bar = {
         }
     }
 }
-const Foo = { template: '<input v-model="foo"></input>',
+const Foo = { 
+    template: '<input v-model="foo"></input>',
     data() {
         return {
             foo: "foo"
@@ -27,8 +28,8 @@ const router = new VueRouter({
     mode: 'history',
     base: __dirname,
     routes: [
-        {path: '/', name: 'foo', component: Bar},     
-        {path: '/Foo', name: 'bar', component: Foo},
+        {path: '/', name: 'bar', component: Bar},     
+        {path: '/Foo', name: 'foo', component: Foo},
         {path: '/dummy', component: Dummy}
     ]
 })
