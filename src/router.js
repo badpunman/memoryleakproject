@@ -17,10 +17,7 @@ const Foo = { template: '<input v-model="foo"></input>',
         return {
             foo: "foo"
         }
-    },
-    components: {
-        Bar
-    }
+    },    
 }
 const Dummy = {
     template: '<div></div>'
